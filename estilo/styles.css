@@ -17,8 +17,8 @@
     --fonte3: "Sriracha", cursive;
 }
 
-body {
-    max-height: 100vh;
+html, body {
+    min-height: 100vh;
     background-color: rgb(255, 255, 255);
     font-family: var(--fonte1);
 }
@@ -38,10 +38,15 @@ header > h1 {
     font-variant: small-caps;
 }
 
-section.normal {
+section {
     padding-top: 5vh;
     padding-bottom:5vh;
     padding-left: 40px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
 }
 
 section > p {
@@ -56,22 +61,22 @@ section#img01 {
 
 section.imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.418);
     color: white;
-    max-width: 300px;
+    width: 300px;
     border-radius: 15px;
     text-shadow: 1px 1px 10px black;
-    padding: 10px;
+    padding: 5px;
+    background-size: cover;
     
 }
 
 section.imagem {
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
     background-attachment: fixed;
     box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.534);
-    padding: 65px 30px;
     background-position: center center;
-    background-repeat: no-repeat;
 }
 
 section#img02 {
