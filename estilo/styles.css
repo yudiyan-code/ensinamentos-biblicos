@@ -68,6 +68,7 @@ section.imagem > p {
     text-shadow: 1px 1px 10px black;
     padding: 5px;
     background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
