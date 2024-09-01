@@ -51,7 +51,7 @@ section > p {
 }
 
 section#img01 {
-    background-image: url('../imagens/noivos1.jpeg');
+    background-image: url('../imagens/noivos.png');
 }
 
 section.imagem > p {
@@ -74,7 +74,7 @@ section.imagem {
 }
 
 section#img02 {
-    background-image: url('../imagens/biblia.jpg');
+    background-image: url('../imagens/biblia.png');
 }
 
 footer {
