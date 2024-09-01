@@ -68,6 +68,7 @@ section.imagem > p {
     border-radius: 15px;
     text-shadow: 1px 1px 10px black;
     padding: 5px;
+    background-size: cover;
 }
 
 section.imagem {
@@ -82,7 +83,7 @@ section.imagem {
 
 section#img02 {
     background-image: url('../imagens/biblia.png');
-    background-position: right center;
+
 }
 
 footer {
