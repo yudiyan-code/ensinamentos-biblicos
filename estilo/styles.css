@@ -18,7 +18,8 @@
 }
 
 html, body {
-    min-height: 100vh;
+    width: 98vw;
+    height: 100vh;
     background-color: rgb(255, 255, 255);
     font-family: var(--fonte1);
 }
